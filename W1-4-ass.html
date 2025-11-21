@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+   
+
+    
+</head>
+<body>
+    <div class="bg-black text-white text-center w-150 p-10 m-auto mt-1">
+     <div><input type="text" id="output" class="bg-white text-black px-20  py-5 font-bold text-2xl rounded-lg shadow mb-4">
+     <br>
+   <div class="grid grid-cols-4 gap-9">
+    <button class="px-6 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput(1)">1</button> 
+    <button class="px-6 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput(2)">2</button>
+    <button class="px-6 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput(3)">3</button>
+    <button class="px-8 py-5 bg-orange-400 rounded-full font-bold text-4xl" onclick="addInput('/')">/</button> 
+    <button class="px-6 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput(4)">4</button> 
+    <button class="px-6 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput(5)">5</button>
+    <button class="px-6 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput(6)">6</button>
+    <button class="px-8 py-5 bg-orange-400 rounded-full font-bold text-4xl" onclick="addInput('*')">*</button>
+    <button class="px-6 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput(7)">7</button>
+    <button class="px-6 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput(8)">8</button> 
+    <button class="px-6 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput(9)">9</button>
+    <button class="px-8 py-5 bg-orange-400 rounded-full font-bold text-4xl" onclick="addInput('-')">-</button>
+    <button class="px-6 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput(0)">0</button>
+    <button class="px-5 py-4 bg-gray-500 text-white rounded-full font-bold text-4xl hover:bg-gray-800" onclick="addInput('00')">00</button>
+    <button class="px-8 py-5 bg-orange-400 rounded-full font-bold text-4xl" onclick="addInput('+')">+</button> 
+    <button class="px-8 py-5 bg-orange-400 rounded-full font-bold text-4xl" onclick="deleteLastElement()">X</button>
+    <button class="px-8 py-5 bg-orange-400 rounded-full font-bold text-4xl" onclick="calculate()">=</button> 
+    <button class="px-8 py-5 bg-orange-400 rounded-full font-bold text-4xl" onclick="addInput('.')">.</button>
+   </div>
+   </div>
+    </div>
+   
+   <script src="WK1-4-ass.js"></script> 
+</body>
+</html>
